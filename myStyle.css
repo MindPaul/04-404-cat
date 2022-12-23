@@ -1,4 +1,4 @@
-
+body, main {background-color: aqua;}
 main{
   width: 800px;
   display: inline-block;
@@ -12,10 +12,9 @@ header{
   margin-top: 20px;
 }
 
-img {
+header>img {
   float: left;
   height: 35px;
-  
 }
 
 nav {
@@ -29,17 +28,40 @@ a {
   font-size: 20px;
   line-height: 20px;
   color: black;
-  margin-left: 22px;
-
 }
-
+a+a {
+  margin-left: 22px;
+}
 a:hover {
   color: orange;
   text-decoration: underline;
 }
 
 section {
+  display: inline-block;
+  width: 100%;
+
+}
+div{
+  float: left;
+  width: 46%;
+  margin-top: 35px;
 
 }
 
-h1
+h1 {
+  font-size: 50px;
+  display: inline-block;
+  margin-bottom: 0px;
+}
+
+p {
+  display: inline-block;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+section>img{
+  float: right;
+  width: 46%;
+}
