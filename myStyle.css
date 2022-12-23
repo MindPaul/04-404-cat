@@ -1,24 +1,45 @@
 
-main {
-  background-color: rgb(127, 102, 102);
-  width: 100%;
+main{
+  width: 800px;
+  display: inline-block;
+  margin-left: calc((100% - 800px)/ 2);
+  /* margin-left: calc(50% - 400px); TRUMPESNIS UZRASTMAS */
 }
 
-header {
-  background-color: aquamarine;
+header{
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
 }
-.pawz {
-  background-color: antiquewhite;
+
+img {
+  float: left;
+  height: 35px;
+  
 }
-.meniu {
-  background-color: blueviolet;
+
+nav {
+  float: right;
+  margin-top: 6px;
+  
 }
-.puslapis {
-  background-color: brown;
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 20px;
+  color: black;
+  margin-left: 22px;
+
 }
-.kaire {
-  background-color: pink;
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
 }
-.cat-foto {
-  background-color: orange;
+
+section {
+
 }
+
+h1
